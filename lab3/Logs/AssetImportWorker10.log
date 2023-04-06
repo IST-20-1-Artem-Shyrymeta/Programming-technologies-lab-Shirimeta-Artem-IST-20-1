@@ -1,0 +1,452 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Unity_Project/lab3
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+62266
+Successfully changed project path to: D:/Unity_Project/lab3
+D:/Unity_Project/lab3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9804] Host "[IP] 192.168.3.108 [Port] 0 [Flags] 2 [Guid] 724490245 [EditorId] 724490245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GELIKMQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9804] Host "[IP] 192.168.3.108 [Port] 0 [Flags] 2 [Guid] 724490245 [EditorId] 724490245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GELIKMQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 100.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Project/lab3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002533 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (645ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005338 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity_Project\lab3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_Project\lab3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.3 KB). Loaded Objects now: 4189.
+Memory consumption went from 142.8 MB to 142.6 MB.
+Total: 3.098300 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.098500 ms MarkObjects: 2.500500 ms  DeleteObjects: 0.161700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7009245.710454 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_01 1.png
+  artifactKey: Guid(50ff92a2c0fb7894ca81016dd88a161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_01 1.png using Guid(50ff92a2c0fb7894ca81016dd88a161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f11c73d7453516dee29414e8ff8808') in 0.133884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_18 1.png
+  artifactKey: Guid(420cca84962d4ce48a0519b4fbea1f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_18 1.png using Guid(420cca84962d4ce48a0519b4fbea1f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff7102f7500f0a5f65950fbe3e7003') in 0.021408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_19 1.png
+  artifactKey: Guid(5241c1190de38ac42a2f891d20308d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_19 1.png using Guid(5241c1190de38ac42a2f891d20308d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26476758d18446b29f25b42601b25e5c') in 0.018368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_12 1.png
+  artifactKey: Guid(8b7f6f75fa8b45a4d86effdafd03265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_12 1.png using Guid(8b7f6f75fa8b45a4d86effdafd03265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c063743371c8f2c36d37539926e432a6') in 0.019841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_22 1.png
+  artifactKey: Guid(00b510ea95332da42a2d9044a5fd7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_22 1.png using Guid(00b510ea95332da42a2d9044a5fd7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4955c06dcb1767b41c115e7fc2fd76') in 0.021341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_15 1.png
+  artifactKey: Guid(9563468d86287fe4aba9388fd0d29761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_15 1.png using Guid(9563468d86287fe4aba9388fd0d29761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbfd0245d50ae8b775a9497588a277c') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_08 1.png
+  artifactKey: Guid(a0b099848f10afc40ba55d0d9af503ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_08 1.png using Guid(a0b099848f10afc40ba55d0d9af503ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aaeb32b7397ca36f0f0896eb97fa08') in 0.030218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_06 1.png
+  artifactKey: Guid(15a5ea6ba45be304ab7c39e35474896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_06 1.png using Guid(15a5ea6ba45be304ab7c39e35474896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037bba09d80bd518b45bdbea891522ce') in 0.024090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_09 1.png
+  artifactKey: Guid(5663ea2a54e51b04fb4c81ef01449c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_09 1.png using Guid(5663ea2a54e51b04fb4c81ef01449c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeca35cb7648f8cca60dc41a4502caab') in 0.019854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_16 1.png
+  artifactKey: Guid(08bf55e320395dc409b21d17fef80fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_16 1.png using Guid(08bf55e320395dc409b21d17fef80fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc88dd535dcc776561fe6f1bb01c846c') in 0.014604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_11 1.png
+  artifactKey: Guid(30734b2ebcb559e4b8e922aa13112241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_11 1.png using Guid(30734b2ebcb559e4b8e922aa13112241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef755890a5cdd2a6cd08895bcc67d0ff') in 0.016751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_07 1.png
+  artifactKey: Guid(74203ea9d94000f40a2703872c3bd86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_07 1.png using Guid(74203ea9d94000f40a2703872c3bd86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47f44a7a0e022077c0c980d8bf682eb') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.654048 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_13.png
+  artifactKey: Guid(d4f7920c6674f0d4fbaf7fb5510123c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_13.png using Guid(d4f7920c6674f0d4fbaf7fb5510123c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35966af02b552327496220fee1636572') in 0.015801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_25.png
+  artifactKey: Guid(53c8eb41e7ae2184f97c22ed0b26abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_25.png using Guid(53c8eb41e7ae2184f97c22ed0b26abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63a3f37a99350875f131dcb76009feb') in 0.016061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_24.png
+  artifactKey: Guid(e86171334182d5d4eb6cb7c481ddc2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_24.png using Guid(e86171334182d5d4eb6cb7c481ddc2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380bbf4971f2e1a88a98caf9178c25b') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_28.png
+  artifactKey: Guid(3a571098ae8a22a4a846781aa4e20ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_28.png using Guid(3a571098ae8a22a4a846781aa4e20ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638db9d4db2b91d851366d979c15638d') in 0.015323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_23.png
+  artifactKey: Guid(4575380b0b6fcde4cbdc56844e5c4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_23.png using Guid(4575380b0b6fcde4cbdc56844e5c4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3d5a3e86b5585db132667015dd633b') in 0.016978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_22.png
+  artifactKey: Guid(e4762071e16f32d49b155939e8d56307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_22.png using Guid(e4762071e16f32d49b155939e8d56307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548f292c83ec8791cf98081faf087b9b') in 0.019140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_19.png
+  artifactKey: Guid(730f67c3ed3d7774bb5da0327c74bd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_19.png using Guid(730f67c3ed3d7774bb5da0327c74bd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fda3d9a02d00bbcd0e0cf9baf4ebbab') in 0.017149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_33.png
+  artifactKey: Guid(8a94a12239c13aa41bf1b1e801c316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle2/Wolf-Idle2_33.png using Guid(8a94a12239c13aa41bf1b1e801c316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79aef2035d8b86febf5bddf43839f4a') in 0.019406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 400.241025 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_01.png
+  artifactKey: Guid(9db147a0919ef364497aaf08772cbfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_01.png using Guid(9db147a0919ef364497aaf08772cbfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f37fe226e86a8947230d9966150578') in 0.020115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_02.png
+  artifactKey: Guid(7958e95ecf66fd740846e40c849eab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_02.png using Guid(7958e95ecf66fd740846e40c849eab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fa52f9261f2972a5b0af5f16183978') in 0.018913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_25.png
+  artifactKey: Guid(84ef483f0b46da046923373a5b09c325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_25.png using Guid(84ef483f0b46da046923373a5b09c325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1693721c72cb5e00c3de45b4fef4d648') in 0.020228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_11.png
+  artifactKey: Guid(cd5710d9835b55b40bf208bcceebab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_11.png using Guid(cd5710d9835b55b40bf208bcceebab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9fd3009bde6ecc3229e9590ce2b359') in 0.030252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_13.png
+  artifactKey: Guid(3e577fe959b86fa439a15532382b39b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_13.png using Guid(3e577fe959b86fa439a15532382b39b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61258c7aa478d2845d0e4b6c58084a64') in 0.019594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_20.png
+  artifactKey: Guid(5a54667b96f309d4bb1b1f36ea3e83c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_20.png using Guid(5a54667b96f309d4bb1b1f36ea3e83c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c21a8acd2f2a2842cd06bac741b7cf2') in 0.018224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_29.png
+  artifactKey: Guid(4e14869cb0062334880d994c23c09ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_29.png using Guid(4e14869cb0062334880d994c23c09ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05452cc0bde0c04650f3a4ba0650415') in 0.022081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_10.png
+  artifactKey: Guid(bfabc6d8f9c29e44182daf2f432faafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_10.png using Guid(bfabc6d8f9c29e44182daf2f432faafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf85ddf0fe296232848ce8d5f59f4cc') in 0.023739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_14.png
+  artifactKey: Guid(33719bbd9af108c4a953a17c2f147ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_14.png using Guid(33719bbd9af108c4a953a17c2f147ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd52032bbae5a9a44b70fff5e62e35ce') in 0.016525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_26.png
+  artifactKey: Guid(203d2c63500c60e40b9b71a470a95861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_26.png using Guid(203d2c63500c60e40b9b71a470a95861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564df08884dd9d2bd8ed10744241d65b') in 0.024484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_06.png
+  artifactKey: Guid(93bf43e77f54ca144b21ff6185c3bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_06.png using Guid(93bf43e77f54ca144b21ff6185c3bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1271238e928793d784f9b0f5ce2177d4') in 0.027986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_18.png
+  artifactKey: Guid(e72e3df5f4c420e4990be6a9514330ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_18.png using Guid(e72e3df5f4c420e4990be6a9514330ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4992589e36fe770dfe6f14b3faa253a1') in 0.016488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_21.png
+  artifactKey: Guid(1884fc471a06df240ba317ab351e5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_21.png using Guid(1884fc471a06df240ba317ab351e5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2c43580c4080a86e524eb933336446') in 0.015797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_24.png
+  artifactKey: Guid(2fa33da91c5f7f4468c8514662c3a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_24.png using Guid(2fa33da91c5f7f4468c8514662c3a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77705671584894ad7b56a94d12d82e6c') in 0.017637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_16.png
+  artifactKey: Guid(8b817da73538f8349a89e8353c6fd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Walk/Wolf-Walk_16.png using Guid(8b817da73538f8349a89e8353c6fd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e9d1557ca1fcec79a201e3a3fbb921') in 0.015741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.440484 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_02.png
+  artifactKey: Guid(3de157988d548004285c7f9db385de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_02.png using Guid(3de157988d548004285c7f9db385de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761201217ed31a032230d519081bae09') in 0.021460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_08.png
+  artifactKey: Guid(681aacc2dfd1f4b46a8f9cb79a3bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_08.png using Guid(681aacc2dfd1f4b46a8f9cb79a3bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447e828a41d44df3c5a6e8e5395634f') in 0.036171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_05.png
+  artifactKey: Guid(0d5dc7e3369e9ba4a9e721ef92c1c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_05.png using Guid(0d5dc7e3369e9ba4a9e721ef92c1c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8444db6143bb05510bc651e4ee4800b') in 0.037744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_09.png
+  artifactKey: Guid(aa39be7ef1c238347b2de215e119a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Attack1/Wolf-Attack1_09.png using Guid(aa39be7ef1c238347b2de215e119a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83461a092eb9435192c6125d2c2e551') in 0.029870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.979544 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/4Attack/Wolf-4Attack_2.png
+  artifactKey: Guid(c3446d08e768002409494c163802a912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/4Attack/Wolf-4Attack_2.png using Guid(c3446d08e768002409494c163802a912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3d47005601b32d984ac01eebbaafd0') in 0.031057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/4Attack/Wolf-4Attack_4.png
+  artifactKey: Guid(1f3d692e4ba1ee044b1e87bf1be3196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/4Attack/Wolf-4Attack_4.png using Guid(1f3d692e4ba1ee044b1e87bf1be3196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e03f1cff167dc0b93b65d89456ca117') in 0.024779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.831503 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Kick/Wolf-Kick_2.png
+  artifactKey: Guid(276e5505c7fcebb40b0530291d793781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Kick/Wolf-Kick_2.png using Guid(276e5505c7fcebb40b0530291d793781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f622439129facd227d16a82ac6dcef') in 0.028158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Kick/Wolf-Kick_5.png
+  artifactKey: Guid(70b84cbb206669e47a1fa6b2ba1e3bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Kick/Wolf-Kick_5.png using Guid(70b84cbb206669e47a1fa6b2ba1e3bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d41d8a51592f2b46277520819c22e98') in 0.036503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.061862 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Jump/Wolf-Jump_2.png
+  artifactKey: Guid(c6abb97305c18b04da0b808fb603bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Jump/Wolf-Jump_2.png using Guid(c6abb97305c18b04da0b808fb603bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348f3b19dc539c1e8d8b810d2b4b8408') in 0.020535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Jump/Wolf-Jump_5.png
+  artifactKey: Guid(0f122d2de6f3b9f4cb607ab9d9b3dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Jump/Wolf-Jump_5.png using Guid(0f122d2de6f3b9f4cb607ab9d9b3dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ee056baffe8bd46948e2e6ee1f4395') in 0.019741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.969085 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Landing/Wolf-Landing_2.png
+  artifactKey: Guid(8292e8af49e9e7946aea4a2657d81a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Landing/Wolf-Landing_2.png using Guid(8292e8af49e9e7946aea4a2657d81a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6983806392fef6255d2d498d981a30a') in 0.028394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Landing/Wolf-Landing_4.png
+  artifactKey: Guid(74543d89a48603e499843b2c20923228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Landing/Wolf-Landing_4.png using Guid(74543d89a48603e499843b2c20923228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092fee9701ebba6b2e9cb692dea1ba75') in 0.036109 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

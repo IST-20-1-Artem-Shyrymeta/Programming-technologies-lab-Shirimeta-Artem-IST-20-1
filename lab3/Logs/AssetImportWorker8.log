@@ -1,0 +1,278 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/Unity_Project/lab3
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+62266
+Successfully changed project path to: D:/Unity_Project/lab3
+D:/Unity_Project/lab3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27544] Host "[IP] 192.168.3.108 [Port] 0 [Flags] 2 [Guid] 2814084015 [EditorId] 2814084015 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GELIKMQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27544] Host "[IP] 192.168.3.108 [Port] 0 [Flags] 2 [Guid] 2814084015 [EditorId] 2814084015 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GELIKMQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 104.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Project/lab3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003164 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006912 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity_Project\lab3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_Project\lab3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.3 KB). Loaded Objects now: 4189.
+Memory consumption went from 142.8 MB to 142.6 MB.
+Total: 3.776600 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.185900 ms MarkObjects: 3.033600 ms  DeleteObjects: 0.157000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7008846.841158 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Spine
+  artifactKey: Guid(377ab797579a9b443a694fc60c42a766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Spine using Guid(377ab797579a9b443a694fc60c42a766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10dc75deca8ef35e87d458df134406c') in 0.011527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.169920 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1
+  artifactKey: Guid(0081497c0c352ad4b92acc8ffdc22252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1 using Guid(0081497c0c352ad4b92acc8ffdc22252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bc6e2ae2dcfc8f75a59a04939939e2') in 0.012327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046989 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_11.png
+  artifactKey: Guid(0ef7d64955f6fa244b2c200c1b98fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_11.png using Guid(0ef7d64955f6fa244b2c200c1b98fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b618001f61f404299e3012af9ae96b37') in 0.117539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_20.png
+  artifactKey: Guid(9aba020db89766f42b05e638a0599a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_20.png using Guid(9aba020db89766f42b05e638a0599a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66563ab501dd8eb8b8cf73e42b54322e') in 0.025620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_33.png
+  artifactKey: Guid(9a835cb331a527145874b5d067429a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_33.png using Guid(9a835cb331a527145874b5d067429a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad383a8f471f1976766410789de9ee35') in 0.015686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_24.png
+  artifactKey: Guid(403ce1a847f746f4b930dcee7871ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_24.png using Guid(403ce1a847f746f4b930dcee7871ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a9ec4202fcf340d4ae7a189329260e') in 0.014817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_31.png
+  artifactKey: Guid(8d12b88ed5a318a4b9b9c2c12e8d5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_31.png using Guid(8d12b88ed5a318a4b9b9c2c12e8d5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619813eecf6b448a08cd9e13f11b0a02') in 0.014436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_29.png
+  artifactKey: Guid(ffd0c9cffc8479d4a924ba18ba34a640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_29.png using Guid(ffd0c9cffc8479d4a924ba18ba34a640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387472c32ed073c0f735cb705689e030') in 0.016520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_28.png
+  artifactKey: Guid(6cb4e460d39fd864b8655a49f0ddb0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_28.png using Guid(6cb4e460d39fd864b8655a49f0ddb0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f5e90e1048dc543209cda4b75be6ce') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_25.png
+  artifactKey: Guid(9200d996ba69f7242b17bbc63d94613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_25.png using Guid(9200d996ba69f7242b17bbc63d94613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dd38dfec7bc2fc7b3fc3a11ab4feea') in 0.017949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_14.png
+  artifactKey: Guid(930570dcff835194eaedce20b523bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_14.png using Guid(930570dcff835194eaedce20b523bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60287be6909b6258046a382488ca0257') in 0.015482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_27.png
+  artifactKey: Guid(f2b56903f6303a34fbdf848877baccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_27.png using Guid(f2b56903f6303a34fbdf848877baccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4197d28ac91f8b323e74126d9e6e2b0') in 0.016750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_16.png
+  artifactKey: Guid(b420920e67e8dda49bdbddcdbcee6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_16.png using Guid(b420920e67e8dda49bdbddcdbcee6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabbd6ea1ff364d77077f87a536eb604') in 0.017309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.438330 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_00.png
+  artifactKey: Guid(b97c58bfe5a361048bb0d218bcf1b081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_00.png using Guid(b97c58bfe5a361048bb0d218bcf1b081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127a3dacd29e835adcd484161d9826a7') in 0.017340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_06.png
+  artifactKey: Guid(7f63b77dd23bacb4a8828b911672a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_06.png using Guid(7f63b77dd23bacb4a8828b911672a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a00bb4cdce72c2f8ddc4c75daeb23f8') in 0.023365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_05.png
+  artifactKey: Guid(4686c5afaadce55428c399fd47550eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_05.png using Guid(4686c5afaadce55428c399fd47550eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d219ac9e0376ebeaacef962e41663') in 0.024036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_08.png
+  artifactKey: Guid(7f735003821309b4f9224c3f65def0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_08.png using Guid(7f735003821309b4f9224c3f65def0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c62e5d27a90583b921f836d3a9fcbd') in 0.020390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_09.png
+  artifactKey: Guid(48495a99ffde65c409dbd525bcb1f8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Platformer Char/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_09.png using Guid(48495a99ffde65c409dbd525bcb1f8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd707f1523878d7201ef4039ac76806') in 0.016138 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
